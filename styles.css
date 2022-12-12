@@ -1,0 +1,106 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+body {
+    background: #000000;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.logo img {
+    width: 130px;
+    float: left;
+    padding-left: 1%;
+    padding-top: 0.1%;
+}
+
+.welcome-text {
+    position: absolute;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    color: rgb(167, 144, 90);
+    font-size: 40px;
+}
+
+.welcome-text a {
+    border: 1px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #000000;
+    background-image: linear-gradient(to top, #1b0101 0%, #3e0d0d 100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.welcome-text a:hover {
+    background: #000000;
+    color: #333;
+}
+
+.welcome-text p {
+    color: rgb(167, 144, 90);
+}
+
+.video {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 1px;
+    right: 1px;
+
+
+}
+
+/* this is where the images stack on top and next to eachother*/
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
